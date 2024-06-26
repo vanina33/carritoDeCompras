@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="products">
+            <div class="product">
+                <img src="https://img.global.news.samsung.com/mx/wp-content/uploads/2019/01/Notebook-9-Pro-3.jpg" alt="">
+                <h2>Portatil</h2>
+                <p>Precio: $150</p>
+                <button class="add-to-cart" data-name="Portatil" data-price="150">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/41axk0EYSaL._SR290,290_.jpg" alt="">
+                <h2>Telefono</h2>
+                <p>Precio: $100</p>
+                <button class="add-to-cart" data-name="Telefono" data-price="100">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/766fb9e69dc761e4d42e76e5bfaa647d6629a375/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=foto-ecotank-L8180-5-690x480" alt="">
+                <h2>Impresora</h2>
+                <p>Precio: $75</p>
+                <button class="add-to-cart" data-name="Impresora" data-price="75">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="https://www.steren.com.gt/media/catalog/product/cache/532829604b379f478db69368d14615cd/image/20986abca/audifonos-bluetooth-con-bateria-de-hasta-30-h.jpg" alt="">
+                <h2>Audifono</h2>
+                <p>Precio: $40</p>
+                <button class="add-to-cart" data-name="Audifono" data-price="40">Añadir al Carrito</button>
+            </div>
+           
+        </div>
+        <div class="cart">
+            <h2>Productos Agregados al Carrito</h2>
+            <ul id="cart-list">
+
+            </ul>
+            <p>Total: $<span id="total">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
